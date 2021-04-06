@@ -1,0 +1,22 @@
+{
+  "name": "evoluindotypescript",
+  "version": "1.0.0",
+  "description": "Projeto educacional para evolução na linguagem JavaScript com foco em TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandroBartsch/EvoluindoTypescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlessandroBartsch/EvoluindoTypescript/issues"
+  },
+  "homepage": "https://github.com/AlessandroBartsch/EvoluindoTypescript#readme",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
+}

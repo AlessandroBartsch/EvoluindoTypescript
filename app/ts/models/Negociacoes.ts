@@ -6,7 +6,7 @@ class Negociacoes {
         this._negociacoes.push(negociacao);
     }
 
-    toArray(): Negociacoes[] {
+    toArray(): Negociacao[] {
         return [].concat(this._negociacoes);
     }
 

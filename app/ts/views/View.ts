@@ -1,14 +1,15 @@
-class View <T> {
+abstract class View <T> {
 
-    private _elemento: Element;
+    private _elemento: JQuery;
 
     constructor (selector: string) {
-        this._elemento = document.querySelector(selector);
+        this._elemento = $(selector);
     }
 
+    //comentando o codigo para testar
     update(modelo: T) {
-        this._elemento.innerHTML = this.template(modelo);
+        this._elemento.html(this.template(modelo));
     }
 
-    template(modelo: T): string {throw new Error('Você deve implementar o metodo template.')}
+    abstract template(modelo: T): string;
 }
